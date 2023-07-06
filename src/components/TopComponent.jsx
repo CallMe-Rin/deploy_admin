@@ -6,7 +6,7 @@ import Notif from '../../public/images/bell.svg';
 import Setting from '../../public/images/gear.svg';
 import Box from '../../public/images/codesandbox.svg';
 
-export default function () {
+export default function TopComponent () {
     return (
         <main>
             <div className='flex items-center'>
