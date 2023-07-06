@@ -10,7 +10,7 @@ import TableUser from '@/components/TableUser';
 import Aside from '@/components/Aside';
 import TopComponent from '@/components/TopComponent';
 
-export default function dashboard() {
+export default function Dashboard() {
     const [isMounted, setIsMounted] = useState(false);
     const router = useRouter();
     useEffect(() => {
